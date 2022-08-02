@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/638d441c12.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Roboto+Serif:opsz@8..144&family=Roboto+Slab&display=swap"
+    rel="stylesheet">
+  <title>capstone project</title>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: 'Roboto Serif',
+            lobster: 'Roboto Slab',
+            merriweather: 'Merriweather'
+          },
+        },
+      },
+    };
+  </script>
+</head>
+
+<body>
+  <div class="flex justify-between items-center px-2 py-4">
+    <div class="flex flex-col items-center">
+      <img class="w-16" src="./images/text-book.png" />
+      <div class="text-xl font-lobster text-orange-400">
+        textbook<span class="text-sky-500">lab</span>
+      </div>
+    </div>
+    <i class="fa-solid fa-bars text-3xl text-stone-500 mr-4 sm:hidden"></i>
+    <div class="hidden sm:flex flex-1 justify-around text-xl font-serif text-stone-500">
+      <a class="m-4" href="#mission">mission</a>
+      <a class="m-4" href="#team">team</a>
+      <a class="m-4" href="#testimonials">testimonials</a>
+      <a class="m-4">contact</a>
+    </div>
+  </div>
+  <div class="flex flex-col items-center pb-12">
+    <div class="px-4 flex justify-center">
+      <img class="w-96" src="./images/book.png" />
+    </div>
+    <div class="font-lobster text-xl mb-2 text-stone-600 flex flex-col items-start mx-2">
+      <div class="text-3xl">
+        the best site for textbooks
+      </div>
+      <div class="my-2">
+        find used textbooks based on your school and locations! making easy connections
+      </div>
+      <button class="bg-sky-600 text-white px-4 py-2 rounded-lg my-2">sign up</button>
+    </div>
+  </div>
+  <div class="bg-orange-400 text-white font-lobster flex flex-col items-center py-8">
+    <div id="mission" class="font-lobster text-2xl mb-2">
+      Mission
+    </div>
+    <div class="mx-8 sm:mx-24">
+      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing
+      layouts and visual mockups.
+    </div>
+    <img class="w-16 my-4" src="./images/dinosaur.png"/>
+  </div>
+  <div class="py-4 flex flex-col items-center pt-16">
+    <div id="features" class="font-lobster text-2xl mb-2 text-stone-500">
+      features
+    </div>
+    <div class="p-4 flex flex-col sm:flex-row text-stone-500">
+      <div class="m-4">
+        <div class="m-8">
+          <div class="font-lobster text-xl mb-2">
+            <i class="fa-solid fa-books text-xl text-blue-400"></i> find great textbooks
+          </div>
+          <div class="font-lobster">
+            Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for
+            previewing layouts and visual mockups.
+          </div>
+        </div>
+        <div class="m-8">
+          <div class="font-lobster text-xl mb-2">
+            <i class="fa-solid fa-books text-xl text-orange-400"></i> find great textbooks
+          </div>
+          <div class="font-lobster">
+            Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for
+            previewing layouts and visual mockups.
+          </div>
+        </div>
+        <div class="m-8">
+          <div class="font-lobster text-xl mb-2">
+            <i class="fa-solid fa-books text-xl text-blue-400"></i> find great textbooks
+          </div>
+          <div class="font-lobster">
+            Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for
+            previewing layouts and visual mockups.
+          </div>
+        </div>
+      </div>
+      <div class="m-4">
+        <div class="m-8">
+          <div class="font-lobster text-lg">
+            <i class="fa-solid fa-books text-lg text-orange-400"></i> find great textbooks
+          </div>
+          <div class="font-lobster">
+            Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for
+            previewing layouts and visual mockups.
+          </div>
+        </div>
+        <div class="m-8">
+          <div class="font-lobster text-xl mb-2">
+            <i class="fa-solid fa-books text-xl text-blue-400"></i> find great textbooks
+          </div>
+          <div class="font-lobster">
+            Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for
+            previewing layouts and visual mockups.
+          </div>
+        </div>
+        <div class="m-8">
+          <div class="font-lobster text-xl mb-2">
+            <i class="fa-solid fa-books text-xl text-orange-400"></i> find great textbooks
+          </div>
+          <div class="font-lobster">
+            Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for
+            previewing layouts and visual mockups.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="py-8 flex flex-col items-center">
+    <div id="team" class="font-lobster text-2xl mb-2 text-stone-500">
+      team
+    </div>
+    <div class="text-stone-500 flex flex-wrap justify-center">
+      <div class="flex flex-col items-center w-80 m-4">
+        <img class="w-40 rounded-full border-4 border-orange-400" src="./images/IMG_0074.JPG" />
+        <div class="font-lobster text-lg mt-2">
+          Esther Yang
+        </div>
+        <div class="font-lobster text-lg my-2 text-orange-500">
+          Chief Executive Officer
+        </div>
+        <div class="font-lobster">
+          Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing
+          layouts and visual mockups.
+        </div>
+
+      </div>
+      <div class="flex flex-col items-center w-80 m-4">
+        <img class="w-40 rounded-full border-4 border-orange-400" src="./images/Asset0021.JPEG" />
+        <div class="font-lobster text-lg mt-2">
+          Esther Yang
+        </div>
+        <div class="font-lobster text-lg my-2 text-orange-500">
+          Chief Technical Officer
+        </div>
+        <div class="font-lobster">
+          Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing
+          layouts and visual mockups.
+        </div>
+      </div>
+      <div class="flex flex-col items-center w-80 m-4">
+        <img class="w-40 rounded-full border-4 border-orange-400" src="./images/Asset0021.JPEG" />
+        <div class="font-lobster text-lg mt-2">
+          Esther Yang
+        </div>
+        <div class="font-lobster text-lg my-2 text-orange-500">
+          Chief Esther Officer
+        </div>
+        <div class="font-lobster">
+          Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing
+          layouts and visual mockups.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-sky-600 flex flex-col items-center py-8">
+    <div id="testimonials" class="font-lobster text-2xl mb-2 text-white">
+      testimonials
+    </div>
+    <div class="flex flex-wrap justify-center">
+      <div class="bg-white rounded-lg w-72 flex flex-col items-center p-4 m-4">
+        <img class="w-24" src="./images/dinosaur.png" />
+        <div class="font-lobster text-orange-600 text-lg">
+          Alice
+        </div>
+        <div class="font-lobster text-stone-600">
+          <i class="fa-solid fa-quote-left text-orange-500"></i> Lorem ipsum is placeholder text commonly used in the
+          graphic, print, and publishing industries for previewing layouts and visual mockups. <i
+            class="fa-solid fa-quote-right text-orange-500"></i>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg w-72 flex flex-col items-center p-4 m-4">
+        <img class="w-24" src="./images/dinosaur.png" />
+        <div class="font-lobster text-orange-600 text-lg">
+          Alice
+        </div>
+        <div class="font-lobster text-stone-600">
+          <i class="fa-solid fa-quote-left text-orange-500"></i> Lorem ipsum is placeholder text commonly used in the
+          graphic, print, and publishing industries for previewing layouts and visual mockups. <i
+            class="fa-solid fa-quote-right text-orange-500"></i>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg w-72 flex flex-col items-center p-4 m-4">
+        <img class="w-24" src="./images/dinosaur.png" />
+        <div class="font-lobster text-orange-600 text-lg">
+          Alice
+        </div>
+        <div class="font-lobster text-stone-600">
+          <i class="fa-solid fa-quote-left text-orange-500"></i> Lorem ipsum is placeholder text commonly used in the
+          graphic, print, and publishing industries for previewing layouts and visual mockups. <i
+            class="fa-solid fa-quote-right text-orange-500"></i>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg w-72 flex flex-col items-center p-4 m-4">
+        <img class="w-24" src="./images/dinosaur.png" />
+        <div class="font-lobster text-orange-600 text-lg">
+          Alice
+        </div>
+        <div class="font-lobster text-stone-600">
+          <i class="fa-solid fa-quote-left text-orange-500"></i> Lorem ipsum is placeholder text commonly used in the
+          graphic, print, and publishing industries for previewing layouts and visual mockups. <i
+            class="fa-solid fa-quote-right text-orange-500"></i>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg w-72 flex flex-col items-center p-4 m-4">
+        <img class="w-24" src="./images/dinosaur.png" />
+        <div class="font-lobster text-orange-600 text-lg">
+          Alice
+        </div>
+        <div class="font-lobster text-stone-600">
+          <i class="fa-solid fa-quote-left text-orange-500"></i> Lorem ipsum is placeholder text commonly used in the
+          graphic, print, and publishing industries for previewing layouts and visual mockups. <i
+            class="fa-solid fa-quote-right text-orange-500"></i>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg w-72 flex flex-col items-center p-4 m-4">
+        <img class="w-24" src="./images/dinosaur.png" />
+        <div class="font-lobster text-orange-600 text-lg">
+          Alice
+        </div>
+        <div class="font-lobster text-stone-600">
+          <i class="fa-solid fa-quote-left text-orange-500"></i> Lorem ipsum is placeholder text commonly used in the
+          graphic, print, and publishing industries for previewing layouts and visual mockups. <i class="fa-solid fa-quote-right text-orange-500"></i>
+        </div>
+      </div>
+    </div>
+     <img class="w-24 my-4" src="./images/dinosaur.png"/>
+    </div>
+    <div class="py-8 flex flex-col items-center">
+      <div id="FAQ" class="font-lobster text-orange-600 text-xl">
+        frequently asked questions
+      </div>
+      <div class="font-lobster">
+        <div class="border-l-4 border-orange-500 p-2 mx-8 my-4">
+          <div class="my-2 text-lg text-stone-600">
+            questions??
+          </div>
+          <div class="my-2 text-stone-500">
+          Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+        </div>
+        </div>
+     <div class="border-l-4 border-sky-500 p-2 mx-8 my-4">
+          <div class="my-2 text-lg text-stone-600">
+            questions??
+          </div>
+          <div class="my-2 text-stone-500">
+          Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+        </div>
+        </div>
+    <div class="border-l-4 border-orange-500 p-2 mx-8 my-4">
+          <div class="my-2 text-lg text-stone-600">
+            questions??
+          </div>
+          <div class="my-2 text-stone-500">
+          Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+        </div>
+        </div>
+    <div class="border-l-4 border-sky-500 p-2 mx-8 my-4">
+          <div class="my-2 text-lg text-stone-600">
+            questions??
+          </div>
+          <div class="my-2 text-stone-500">
+          Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+        </div>
+        </div>
+    <div class="border-l-4 border-orange-500 p-2 mx-8 my-4">
+          <div class="my-2 text-lg text-stone-600">
+            questions??
+          </div>
+          <div class="my-2 text-stone-500">
+          Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+        </div>
+        </div>
+    <div class="border-l-4 border-sky-500 p-2 mx-8 my-4">
+          <div class="my-2 text-lg text-stone-600">
+            questions??
+          </div>
+          <div class="my-2 text-stone-500">
+          Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+        </div>
+        </div>
+      </div> 
+    </div>
+  <div class="bg-sky-700 flex text-stone-200 font-lobster p-12 text-sm justify-between">
+  <div class="flex">
+    <div class="flex flex-col items-center mr-8">
+      <img class="w-16" src="./images/text-book.png" />
+      <div class="text-xl font-lobster text-orange-400">
+        textbook<span class="text-sky-300">lab</span>
+      </div>
+    </div>
+    <div class="flex flex-col">
+      <a href="#mission" class="py-1 px-2">mission</a>
+      <a href="#features" class="py-1 px-2">features</a>
+      <a href="#team" class="py-1 px-2">team</a>
+    </div>
+    <div class="flex flex-col">
+      <a href="#testimonials" class="py-1 px-2">testimonials</a>
+      <a href="#FAQ" class="py-1 px-2">FAQ</a>
+    </div>
+  </div>
+    <div class="text-2xl">
+      <i class="hover:text-orange-300 cursor-pointer fa-brands fa-square-instagram"></i>
+      <i class="hover:text-orange-300 cursor-pointer fa-brands fa-square-facebook"></i>
+      <i class="hover:text-orange-300 cursor-pointer fa-brands fa-linkedin"></i>
+    </div>
+  </div>
+</body>
+
+</html>
